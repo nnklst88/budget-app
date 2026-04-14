@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!--スマホ画面用-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <title>シフト予算管理</title>
+
+    <!--CSS(共通部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+    
+    <!--CSS(indexページ部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+
+<body class="index">
+    <!-- タイトル -->
+    <h1>Budget Management</h1>
+
+    <!-- メニュー -->
+    <div class="menu">
+        <a href="/register">
+            <img src="{{url_for('static',filename='images/Registration.png')}}" alt="登録画面へ">
+        </a>
+        <a href="/list">
+            <img src="{{url_for('static',filename='images/list.png')}}" alt="一覧画面へ">
+        </a>
+        <a href="/management">
+            <img src="{{url_for('static',filename='images/management.png')}}" alt="管理画面へ">
+        </a>
+        <a href="/setting">
+            <img src="{{url_for('static',filename='images/setting.png')}}" alt="設定画面へ">
+        </a>
+    </div>
+</body>
+</html>
