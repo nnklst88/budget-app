@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--スマホ画面用-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>一覧</title>
+
+  <!--CSS(共通部分)-->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+
+  <!--CSS(listページ部分)-->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/list.css') }}"> 
+</head>
+
+<body class="list">
+
+<!--ページタイトル-->
+<h2>一覧</h2>
+
+<div class="card">
+
+  <!--サブタイトル-->
+  <h3>出勤データ一覧</h3>
+
+  <!--並び替え用-->
+  <div class="controls">
+    <form method="get">
+      <select name="sort" onchange="this.form.submit()">
+        <option value="">並べ替え</option>
+        <option value="name_asc">名前順 （昇順）</option>
+        <option value="name_desc">名前順 （降順）</option>
+        <option value="date_asc">日付順（古い順）</option>
+        <option value="date_desc">日付順（新しい順）</option>
+      </select>
+    </form>
+  </div>
+
+  <!--データのテーブル表示-->
+  <table class="listdata">
+  <tr>
+    <th>名前</th>
+    <th>日付</th>
+    <th>勤務時間</th>
+    <th>給料</th>
+  </tr>
+
+  <!--データを1件ずつ取得し表示-->
+  {% for r in records %}
+  <tr>
+    <td>{{r.name}}</td>
+    <td>{{r.date}}</td>
+    <td>{{r.work_hour}}時間</td>
+    <td>{{r.money}}円</td>
+  </tr>
+  {% endfor %}
+</table>
+</div>
+
+<!--ホームに戻る-->
+ <a href="/">戻る</a>
+
+</body>
+</html>

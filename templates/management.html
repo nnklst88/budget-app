@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!--スマホ画面用-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Management</title>
+
+    <!--CSS(共通部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+
+    <!--CSS(managementページ部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/management.css') }}"> 
+</head>
+
+<body class="management">
+
+    <!--予算設定-->
+    <form method="POST">
+
+        <!--ページタイトル-->
+        <h2>管理 </h2>
+
+        <!--サブタイトル-->
+        <h3>期間ごとの予算設定</h3>
+
+        <p>開始日</p>
+        <input type="date" name="start_day">
+
+        <p>終了日</p>
+        <input type="date" name="end_day">
+
+        <p>予算（円）</p>
+        <input type="number" name="budget">
+
+        <input type="submit" value="予算を設定">
+    </form>
+
+    <!--サブタイトル(結果の表示)-->
+    <h3>予算の使用状況</h3> 
+
+    <!--結果のテーブル表示-->
+    <table class="managementdata">
+        <tr>
+            <th>期間</th>
+            <td>{{start_day}}~{{end_day}}</td>
+        </tr>
+        <tr>
+            <th>予算</th>
+            <td>{{budget}}円</td>
+        </tr>
+        <tr>
+            <th>使用</th>
+            <td>{{use}}円</td>
+        </tr>
+        <tr>
+            <th>残り</th>
+            <td>{{rest}}円</td>
+        </tr>
+    </table>
+
+    <!--ホームに戻る-->
+    <a href="/">戻る</a>
+
+</body>
+</html>

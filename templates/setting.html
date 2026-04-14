@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--スマホ画面用-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Setting</title>
+
+    <!--CSS(共通部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+
+    <!--CSS(settingページ部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/setting.css') }}"> 
+</head>
+
+<body class="setting">
+
+    <!--ページタイトル-->
+    <h2>設定 </h2>
+
+    <!--サブタイトル-->
+    <h3>時給の変更</h3>
+
+    <!--現在の時給の表示-->
+    <p>現在の時給:{{setting_money}}円</p>
+
+    <!--入力用-->
+    <form method="POST">
+        <p>時給（円）</p>
+        <input type="number" name="money">
+
+        <input type="submit" value="変更する">
+    </form>
+
+<!--ホームに戻る-->
+<div class="return_setting">
+    <a href="/">戻る</a>
+</div>
+
+</body>
+</html>

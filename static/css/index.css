@@ -1,0 +1,45 @@
+/*ページ全体*/
+.index{
+    margin:0 auto 0 auto;
+	max-width:960px;
+}
+
+/*タイトル*/
+h1{
+    color:#3f5170;
+    font-size:50px;
+    margin:50px 0 50px 0;
+    height:150px;
+    line-height:150px;
+    text-align:center;
+    background-color: white;
+}
+
+/*メニュー*/
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 50px; 
+    width: 500px; 
+    margin: 0 auto; 
+}
+
+/*メニューの画像*/
+.menu img {
+    width: 100%; 
+}
+
+/*スマホ用*/
+@media(max-width:767px){
+    h1{ 
+    font-size:30px;
+    margin:100px 0 50px 0;
+    height:100px;
+    line-height:100px;
+    }
+
+    .menu {
+    gap: 15px; 
+    width: 90%; 
+    }
+}

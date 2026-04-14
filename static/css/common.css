@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*フォント設定*/
+html{
+    font-family:sans-serif ;
+}
+
+html * {
+        box-sizing:border-box;
+}
+
+/*ページ全体の背景と余白*/
+body { 
+    margin:0;
+    background-color: #f3f7d3 ;
+}
+
+

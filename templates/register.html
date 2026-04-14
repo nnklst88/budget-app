@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!--スマホ画面用-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+ 
+    <title>Register</title>
+
+    <!--CSS(共通部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+
+    <!--CSS(registerページ部分)-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}"> 
+</head>
+
+<body class="register">
+   
+    <!--ページタイトル-->
+    <h2>登録</h2>
+
+    <!--サブタイトル-->
+    <h3>出勤記録の入力</h3>
+
+    <!--入力用-->
+    <form method="POST">
+        <p>名前（ひらがな）</p>
+        <input type="text" name="name">
+
+        <p>日付</p>
+        <input type="date" name="date">
+
+        <p>開始時間</p>
+        <input type="time" name="start">
+
+        <p>終了時間</p>
+        <input type="time" name="end">
+
+        <p>休憩時間（分）</p>
+        <input type="number" name="break" min="0" step="1" value="0">
+
+        <input type="submit" value="記録を追加" />
+    </form>
+
+    <!--結果のテーブル表示-->
+    <table class="registerdata">
+        <tr>
+            <th>勤務時間</th>
+            <td>{{work_hour}}時間</td>
+        </tr>
+        <tr>
+            <th>給料</th>
+            <td>{{money}}円</td>
+        </tr>
+    </table>
+
+    <!--ホームに戻る-->
+    <a href="/">戻る</a>
+
+</body>
+</html>

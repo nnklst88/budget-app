@@ -1,0 +1,49 @@
+/*ページ全体*/
+.management{
+    margin:0 auto 0 auto;
+	max-width:960px;
+}
+
+/*ページタイトル*/
+h2{
+    color:#3f5170;
+    font-size:30px;
+    margin:50px 0 40px 0;
+    text-align:center;
+    background-color: white;
+}
+
+/*サブタイトル*/
+h3{
+    color:#3f5170;
+    border-bottom: 3px dotted #3f5170 ;
+}
+
+p{
+    color:#3f5170;
+}
+
+/*テーブル*/
+.managementdata{
+    border-collapse:collapse;
+    margin: 20px 0 50px;
+    width:100%;
+}
+
+.managementdata th,
+.managementdata td{
+    padding:8px;
+    border:1px solid #bec2c7;
+}
+
+.managementdata th{
+	background-color:#dde2ea;
+	color:#3f5170;
+}
+
+/*スマホ用*/
+@media(max-width:767px){
+    .management{
+        margin:0 10px
+    }
+}
