@@ -15,7 +15,7 @@
 ・時給設定
 
 ## 🌐公開URL(Demo)
-https://nnklset88.pythonanywhere.com
+https://nnklset88.pythonanywhere.com<br>
 ※現在はテスト用として公開しています。
 
 ## ⚒️使用技術
