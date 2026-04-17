@@ -44,16 +44,24 @@ python app.py
 http://localhost:5000
 
 ## 使い方
+### ⓪ ホーム画面
+それぞれの画面に遷移します。
+![ホーム画面](./static/images/home_screen.png)
 
-### ① 時給設定
+### ① 設定画面
 最初に時給を設定します。
 初期設定は、1000円です。
+![設定画面](./static/images/setting_screen.png)
 
 ### ② 登録画面
 勤務日、開始時間と終了時間、休憩時間を入力して登録します。
+![登録画面](./static/images/Registration_screen.png)
 
 ### ③ 一覧画面
 登録したデータと計算された給料を一覧で確認できます。
+![一覧画面](./static/images/list_screen.png)
 
 ### ④管理画面
-期間の開始日と終了日を入力し、予算を設定します。設定した期間内で使用した金額をもとに、残りの予算が自動で表示されます。
+期間の開始日と終了日を入力し、予算を設定します。
+設定した期間内で使用した金額をもとに、残りの予算が自動で表示されます。
+![管理画面](./static/images/management_screen.png)
