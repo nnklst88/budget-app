@@ -67,7 +67,7 @@ http://localhost:5000
 <img src="./static/images/setting_screen.png" width="400">
 
 ### ② 登録画面
-勤務日、開始時間・終了時間、休憩時間を入力して、登録します。<br>
+名前、日付、開始時間・終了時間、休憩時間(分）を入力して、登録します。<br>
 <img src="./static/images/registration_screen.png" width="400">
 
 ### ③ 一覧画面
