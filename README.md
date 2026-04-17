@@ -16,7 +16,7 @@
 
 ## 🌐公開URL(Demo)
 https://nnklset88.pythonanywhere.com<br>
-<img src="./static/images/App Demo_QR.png" width="100">
+<img src="./static/images/qrcode.png" width="100"><br>
 ※現在はテスト用として公開しています。
 
 ## ⚒️使用技術
