@@ -14,10 +14,10 @@
 ・期間ごとの予算管理  
 ・時給設定
 
-## 🌐公開URL(Demo)
+## 🌐公開URL(App Demo)
 https://nnklset88.pythonanywhere.com<br>
 <img src="./static/images/qrcode.png" width="100"><br>
-※現在はテスト用として公開しています。
+※ブラウザから直接操作いただけます。
 
 ## ⚒️使用技術
 ・Python（Flask）  
