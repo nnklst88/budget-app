@@ -55,7 +55,7 @@ http://localhost:5000
 
 ### ② 登録画面
 勤務日、開始時間と終了時間、休憩時間を入力して登録します。<br>
-<img src="./static/images/registration2_screen.png" width="400">
+<img src="./static/images/registration_screen.png" width="400">
 
 ### ③ 一覧画面
 登録したデータと計算された給料を一覧で確認できます。<br>
