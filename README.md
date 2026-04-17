@@ -20,15 +20,15 @@ https://nnklset88.pythonanywhere.com<br>
 ※ブラウザから直接操作いただけます。
 
 ## ⚒️使用技術
-【バックエンド】
- ・Python（Flask）
-【フロントエンド】
- ・HTML/CSS
-【デプロイ・公開】
- ・PythonAnywhere
-【開発環境】
- ・Visual Studio Code
- ・AIツール（実装調査・エラー解決の補助）
+【バックエンド】<br>
+ ・Python（Flask）<br>
+【フロントエンド】<br>
+ ・HTML/CSS<br>
+【デプロイ・公開】<br>
+ ・PythonAnywhere<br>
+【開発環境】<br>
+ ・Visual Studio Code<br>
+ ・AIツール（実装調査・エラー解決の補助）<br>
 
 ## 💻環境構築
 
