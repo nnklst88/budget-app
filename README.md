@@ -15,8 +15,8 @@
 ・HTML / CSS  
 
 ## 環境構築
-[Mac / Linux]
 
+### Mac / Linux
 ```bash
 git clone https://github.com/nnklst88/budget-app.git
 cd budget-app
@@ -25,12 +25,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 python app.py
 ```
-
 起動後、ブラウザで以下にアクセスしてください：
 http://localhost:5000
 
-[Windows]
-
+### Windows
 ```bash
 git clone https://github.com/nnklst88/budget-app.git
 cd budget-app
@@ -45,16 +43,15 @@ http://localhost:5000
 
 ## 使い方
 ### ⓪ ホーム画面
-それぞれの画面に遷移します。<br>
+書く機能画面に遷移します。<br>
 <img src="./static/images/home_screen.png" width="400">
 
 ### ① 設定画面
-最初に時給を設定します。<br>
-初期設定は、1000円です。<br>
+時給の設定をします。（初期値:1000円）<br>
 <img src="./static/images/setting_screen.png" width="400">
 
 ### ② 登録画面
-勤務日、開始時間と終了時間、休憩時間を入力して登録します。<br>
+勤務日、開始時間・終了時間、休憩時間を入力して、登録します。<br>
 <img src="./static/images/registration_screen.png" width="400">
 
 ### ③ 一覧画面
