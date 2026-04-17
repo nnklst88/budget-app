@@ -12,7 +12,11 @@
 ・給料の自動計算  
 ・一覧表示（ソート機能あり）  
 ・期間ごとの予算管理  
-・時給設定  
+・時給設定
+
+## 🌐公開URL(Demo)
+https://nnklset88.pythonanywhere.com
+※現在はテスト用として公開しています。
 
 ## ⚒️使用技術
 ・Python（Flask）  
