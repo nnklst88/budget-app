@@ -46,7 +46,7 @@ http://localhost:5000
 ## 使い方
 ### ⓪ ホーム画面
 それぞれの画面に遷移します。
-![ホーム画面](./static/images/home_screen.png)
+<img src="./static/images/homescreen.png" width="500">
 
 ### ① 設定画面
 最初に時給を設定します。
@@ -55,7 +55,7 @@ http://localhost:5000
 
 ### ② 登録画面
 勤務日、開始時間と終了時間、休憩時間を入力して登録します。
-![登録画面](./static/images/Registration_screen.png)
+![登録画面](./static/images/registration_screen.png)
 
 ### ③ 一覧画面
 登録したデータと計算された給料を一覧で確認できます。
