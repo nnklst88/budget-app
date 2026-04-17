@@ -46,7 +46,7 @@ http://localhost:5000
 ## 使い方
 ### ⓪ ホーム画面
 それぞれの画面に遷移します。
-<img src="./static/images/homescreen.png" width="500">
+<img src="./static/images/home_screen.png" width="500">
 
 ### ① 設定画面
 最初に時給を設定します。
