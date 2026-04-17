@@ -72,6 +72,7 @@ http://localhost:5000
 
 ### ③ 一覧画面
 登録したデータと計算された給料を一覧で確認できます。<br>
+名前と日付で並び替えることも可能です。<br>
 <img src="./static/images/list_screen.png" width="400">
 
 ### ④管理画面
