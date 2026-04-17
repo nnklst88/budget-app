@@ -45,23 +45,23 @@ http://localhost:5000
 
 ## 使い方
 ### ⓪ ホーム画面
-それぞれの画面に遷移します。
-<img src="./static/images/home_screen.png" width="500">
+それぞれの画面に遷移します。<br>
+<img src="./static/images/home_screen.png" width="400">
 
 ### ① 設定画面
-最初に時給を設定します。
-初期設定は、1000円です。
-![設定画面](./static/images/setting_screen.png)
+最初に時給を設定します。<br>
+初期設定は、1000円です。<br>
+<img src="./static/images/setting_screen.png" width="400">
 
 ### ② 登録画面
-勤務日、開始時間と終了時間、休憩時間を入力して登録します。
-![登録画面](./static/images/registration_screen.png)
+勤務日、開始時間と終了時間、休憩時間を入力して登録します。<br>
+<img src="./static/images/registration_screen.png" width="400">
 
 ### ③ 一覧画面
-登録したデータと計算された給料を一覧で確認できます。
-![一覧画面](./static/images/list_screen.png)
+登録したデータと計算された給料を一覧で確認できます。<br>
+<img src="./static/images/list_screen.png" width="400">
 
 ### ④管理画面
-期間の開始日と終了日を入力し、予算を設定します。
-設定した期間内で使用した金額をもとに、残りの予算が自動で表示されます。
-![管理画面](./static/images/management_screen.png)
+期間の開始日と終了日を入力し、予算を設定します。<br>
+設定した期間内で使用した金額をもとに、残りの予算が自動で表示されます。<br>
+<img src="./static/images/management_screen.png" width="400">
